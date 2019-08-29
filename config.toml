@@ -1,6 +1,6 @@
-baseurl = "https://example.org/"
-languageCode = "en-us"
-title = "Hugo Creative Theme"
+baseurl = "https://flamboyant-kare-05336b.netlify.com/"
+languageCode = "nb-NO"
+title = "AA Bygg"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
