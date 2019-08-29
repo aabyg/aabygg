@@ -1,0 +1,107 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Hugo Creative Theme"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "AA Bygg"
+	description = "Bygg- og snekkertjenester på Haugalandet"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "AA Bygg"
+
+		[params.navigation.links]
+			about     = "Om Oss"
+			services  = "Tjenester"
+			portfolio = "Portfolio"
+			contact   = "Kontakt Oss"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Bygg- og snekkertjenester på Haugalandet"
+		subtitle   = "AA Bygg består av Alf Andreas Braut og Alf Georg Sommerfeldt. Vi leverer det meste av byggtjenester rundt om på Haugalandet"
+		buttonText = "Våre tjenester"
+
+
+	# About section
+	[params.about]
+		headline    = "Du drømmer, vi tømrer!"
+		description = "Skal du bygge nytt hus, garasje eller kanskje bare en ny terasse? Vi fikser det meste. Ta kontakt med oss så gir vi deg et uforpliktende tilbud!"
+		buttonText  = "Ta Kontakt"
+
+
+	# Service section
+	[params.services]
+		headline = "Vi kan tilby tjenester som"
+
+        [[params.services.list]]
+            icon = "fa-home"
+            title = "Nybygg"
+            description = "Skal du bygge nytt? Vi snekrer sammen ditt drømmehus eller hva annet du måtte ønske."
+
+        [[params.services.list]]
+			icon = "fa-users"
+			title = "Påbygg"
+			description = "Trenger du større kjøkken? Eller har familien vokst seg for stor for stua? Vi hjelper deg å bygge ut slik at du får all den plassen du trenger!"
+
+		[[params.services.list]]
+            icon = "fa-wrench"
+            title = "Restaurering"
+            description = "Trenger garasjen en liten oppussing, eller har begynner terassen å bli slitt og gammel? Vi restaurer gamle slitte bygg for deg"
+
+        [[params.services.list]]
+            icon = "fa-building"
+            title = "Industribygg"
+            description = "Vi kan ta på oss de fleste oppdrag og dette inkluderer også industribygg. Ta kontakt for mer informasjon."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	# [params.aside]
+	# 	headline = "Get the Creative Theme for Hugo"
+
+	# 	[params.aside.button]
+	# 		text = "Download now"
+	# 		link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Kontakt Oss"
+		description = "Er det noe du lurer på eller vil snakke med oss om? Ta kontakt så svarer vi deg så fort vi har mulighet!"
+		phone = "+47 958 70 736"
+		email = "alf@aa-bygg.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
