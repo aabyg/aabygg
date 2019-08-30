@@ -1,4 +1,4 @@
-baseurl = "https://www.aa-bygg.com/"
+baseurl = "http://www.aa-bygg.com/"
 languageCode = "nb-NO"
 title = "AA Bygg"
 theme = "hugo-creative-theme"
