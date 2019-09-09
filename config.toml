@@ -2,7 +2,7 @@ baseurl = "https://www.aa-bygg.com/"
 languageCode = "nb-NO"
 title = "AA Bygg"
 theme = "hugo-creative-theme"
-googleAnalytics = ""
+googleAnalytics = "UA-108084217-2"
 
 [params]
 
