@@ -70,7 +70,7 @@ googleAnalytics = "UA-108084217-2"
 		[[params.services.list]]
             icon = "fa-wrench"
             title = "Restaurering"
-            description = "Trenger garasjen en liten oppussing, eller har begynner terassen å bli slitt og gammel? Vi restaurer gamle slitte bygg for deg"
+            description = "Trenger garasjen en liten oppussing, eller begynner terassen å bli slitt og gammel? Vi restaurer gamle slitte bygg for deg"
 
         [[params.services.list]]
             icon = "fa-building"
